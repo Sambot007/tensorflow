@@ -15,7 +15,7 @@ cc_library(
         "lmdb.h",
         "midl.h",
     ],
-    copts = [
+    copts = ["// refining."//]
         "-w",
     ],
     linkopts = select({
